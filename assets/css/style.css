@@ -1,0 +1,612 @@
+body {
+    background-image: url(./images/background/background-cones.png);
+    font-family:  'Nerko One',Georgia, 'Times New Roman', Times, serif;
+}
+.backBox {
+    background-image: url(./images/background/backBox.png);
+    background-repeat: no-repeat;
+    width: 1292px;
+    height: 625px;
+    margin: 40px;
+    padding-right: 40px;
+}
+.logo {
+  width: 250px;
+  height: 230px;
+  padding-top: 20px;
+  padding-left: 55px;
+}
+
+/* menu start */
+    a {
+        display: block;
+
+    }
+
+    .experienceMenuA{
+        width: 280px;
+        height: 88px;
+        padding-left: 45px;
+        display: block;
+    }
+    .veganmenuA {
+        width: 280px;
+        height: 88px;
+        padding-left: 45px;
+        display: block;
+    }
+    .flavormenuA {
+        width: 280px;
+        height: 90px;
+        padding-left: 45px;
+        display: block;
+    }
+    .PricingmenuA {
+        width: 280px;
+        height: 90px;
+        padding-left: 45px;
+        display: block;
+        padding-bottom: 20px;
+    }
+/* menu end */
+
+/* text and text box start */
+    .container {
+        float: right;
+        padding-right: 45px;
+        position: relative;
+    }
+    .questionText {
+        font-size: 27px;
+        color: rgb(214, 12, 191);
+        position: absolute;
+        top: 10px;
+        left: 20px;
+        padding: 30px;
+    }
+    .textCream {
+        font-size: 20px;
+        color: rgb(22, 104, 163);
+        position: absolute;
+        top: 60px;
+        left: 20px;
+        padding: 30px;
+        padding-right: 80px;
+        text-align: left;
+    }
+/* text and text box end */
+/* scoop and txt on homeopage start */
+    img.scoop {
+        position: absolute;
+    padding: 20px;
+    float: right;
+    bottom: 105%;
+    left: 74%;
+    }
+    .fellScoop {
+        position: absolute;
+    padding: 20px;
+    float: right;
+    bottom: 115%;
+    left: 38%;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: right;
+    color: rgb(15, 115, 154);
+    }
+    .scoopTxt {
+            position: absolute;
+        padding: 20px;
+        float: right;
+        bottom: 125%;
+        left: 65.5%;
+        font-size: 35px;
+        font-family: 'Times New Roman', Times, serif;
+        text-align: right;
+        color: rgb(221, 11, 186);
+        -webkit-transform: rotate(270deg);
+        -webkit-text-stroke: 1px rgb(179, 70, 157) ;
+        text-shadow: 4px 4px white;
+    }
+/* scoop and txt on homeopage end */
+
+/* experience start */
+    .backBoxE {
+        background-image: url(./images/background/backBox.png);
+        background-repeat: no-repeat;
+        width: 1292px;
+        height: 645px;
+        margin: 40px;
+        padding-right: 40px;
+    }
+    /* experience 1 */
+    .textBoxE1{
+        position: absolute;
+        padding: 20px;
+        float: right;
+        bottom: 67%;
+        left: 38%;  
+        width: 400px;
+        height: 150px;
+    }
+    .titleE1 {
+        font-size: 20px;
+        color: rgb(161, 17, 174);
+        position: absolute;
+        top: 47px;
+        left: 39%;
+        padding: 30px;
+        padding-right: 80px;
+        text-align: left;
+    }
+    .textE1 {
+        font-size: 13px;
+        color: rgb(20, 116, 213);
+        position: absolute;
+        top: 80px;
+        left: 39%;
+        padding: 30px;
+        padding-right: 80px;
+        text-align: left;
+    }
+    .experienceScoop1 {
+        position: absolute;
+        padding: 20px;
+        float: right;
+        bottom: 67%;
+        left: 68%;  
+        width: 200px;
+        
+    }
+    /* experience 2 */
+    .textBoxE2{
+        position: absolute;
+        padding: 20px;
+        float: right;
+        bottom: 42%;
+        left: 52%;  
+        width: 400px;
+        height: 150px;
+    }
+    .experienceScoop2 {
+        position: absolute;
+        padding: 20px;
+        float: right;
+        bottom: 42%;
+        left: 38%;  
+        width: 180px;
+    }
+    .titleE2 {
+        font-size: 20px;
+        color: rgb(161, 17, 174);
+        position: absolute;
+        top: 32%;
+        left: 53%;
+        padding: 30px;
+        padding-right: 80px;
+        text-align: left;
+    }
+    .textE2 {
+        font-size: 13px;
+        color: rgb(20, 116, 213);
+        position: absolute;
+        top: 36%;
+        left: 53%;
+        padding: 30px;
+        padding-right: 80px;
+        text-align: left;
+    }
+    /* experience 3 */
+    .textBoxE3{
+        position: absolute;
+        padding: 20px;
+        float: right;
+        bottom: 16%;
+        left: 38%;  
+        width: 400px;
+        height: 150px;
+    }
+    .titleE3 {
+        font-size: 20px;
+        color: rgb(161, 17, 174);
+        position: absolute;
+        top: 58%;
+        left: 39%;
+        padding: 30px;
+        padding-right: 80px;
+        text-align: left;
+    }
+    .textE3 {
+        font-size: 13px;
+        color: rgb(20, 116, 213);
+        position: absolute;
+        top: 63%;
+        left: 39%;
+        padding: 30px;
+        padding-right: 80px;
+        text-align: left;
+    }
+    .experienceScoop3 {
+        position: absolute;
+        padding: 20px;
+        float: right;
+        bottom: 15.5%;
+        left: 68%;  
+        width: 210px;
+    }
+
+
+/* experience end */
+
+/* vegan start */
+    /* vegan 1 */
+    .textBoxV1{
+        position: absolute;
+        padding: 20px;
+        float: right;
+        bottom: 67%;
+        left: 38%;  
+        width: 400px;
+        height: 150px;
+    }
+    .titleV1 {
+        font-size: 20px;
+        color: rgb(161, 17, 174);
+        position: absolute;
+        top: 47px;
+        left: 49%;
+        padding: 30px;
+        padding-right: 80px;
+        text-align: right;
+    }
+    .textV1 {
+        font-size: 13px;
+        color: rgb(20, 116, 213);
+        position: absolute;
+        top: 90px;
+        left: 39%;
+        padding: 30px;
+        padding-right: 80px;
+        text-align: left;
+    }
+    .veganScoop1 {
+        position: absolute;
+        padding: 20px;
+        float: right;
+        bottom: 63%;
+        left: 63%;  
+        width: 350px;
+        -webkit-transform: rotate(20deg);
+    }
+    /* vegan 2 */
+    .textBoxV2{
+        position: absolute;
+        padding: 20px;
+        float: left;
+        bottom: 42%;
+        left: 52%;  
+        width: 400px;
+
+    }
+    .veganScoop2 {
+        position: absolute;
+        padding: 20px;
+        float: right;
+        bottom: 39%;
+        left: 32%;  
+        width: 380px;
+        -webkit-transform: rotate(340deg);
+    }
+    .titleV2 {
+        font-size: 20px;
+        color: rgb(161, 17, 174);
+        position: absolute;
+        top: 32%;
+        left: 53%;
+        padding: 30px;
+        padding-right: 80px;
+        text-align: left;
+    }
+    .textV2 {
+        font-size: 13px;
+        color: rgb(20, 116, 213);
+        position: absolute;
+        top: 36%;
+        left: 53%;
+        padding: 30px;
+        padding-right: 80px;
+        text-align: left;
+    }
+    /* vegan 3 */
+    .textBoxV3{
+        position: absolute;
+        padding: 20px;
+        float: right;
+        bottom: 16%;
+        left: 38%;  
+        width: 400px;
+        height: 150px;
+    }
+    .titleV3 {
+        font-size: 20px;
+        color: rgb(161, 17, 174);
+        position: absolute;
+        top: 58%;
+        left: 39%;
+        padding: 30px;
+        padding-right: 80px;
+        text-align: left;
+    }
+    .textV3 {
+        font-size: 13px;
+        color: rgb(20, 116, 213);
+        position: absolute;
+        top: 63%;
+        left: 39%;
+        padding: 30px;
+        padding-right: 80px;
+        text-align: left;
+    }
+    .veganScoop3 {
+        position: absolute;
+        padding: 20px;
+        float: right;
+        bottom: 11%;
+        left: 62%;  
+        width: 360px;
+        -webkit-transform: rotate(20deg);
+    }
+
+
+/* vegan end */
+
+
+ /* flavor start */
+    /* flavor 1 */
+    .textBoxF1{
+        position: absolute;
+        padding: 20px;
+        float: right;
+        bottom: 67%;
+        left: 52%;  
+        width: 400px;
+        height: 150px;
+    }
+    .titleF1 {
+        font-size: 20px;
+        color: rgb(161, 17, 174);
+        position: absolute;
+        top: 47px;
+        left: 53%;
+        padding: 30px;
+        padding-right: 80px;
+        text-align: right;
+    }
+    .textF1 {
+        font-size: 13px;
+        color: rgb(20, 116, 213);
+        position: absolute;
+        top: 93px;
+        left: 53%;
+        padding: 30px;
+        padding-right: 80px;
+        text-align: left;
+    }
+    .flavorScoop1 {
+        position: absolute;
+        padding: 20px;
+        float: right;
+        bottom: 63%;
+        left: 31%;  
+        width: 390px;
+        -webkit-transform: rotate(340deg);
+    }
+    /* vegan 2 */
+    .textBoxF2{
+        position: absolute;
+        padding: 20px;
+        float: left;
+        bottom: 42%;
+        left: 38%;  
+        width: 400px;
+
+    }
+    .flavorScoop2 {
+        position: absolute;
+        padding: 20px;
+        float: right;
+        bottom: 39%;
+        left: 62%;  
+        width: 380px;
+        -webkit-transform: rotate(20deg);
+    }
+    .titleF2 {
+        font-size: 20px;
+        color: rgb(161, 17, 174);
+        position: absolute;
+        top: 31%;
+        left: 39%;
+        padding: 30px;
+        padding-right: 80px;
+        text-align: left;
+    }
+    .textF2 {
+        font-size: 13px;
+        color: rgb(20, 116, 213);
+        position: absolute;
+        top: 36%;
+        left: 39%;
+        padding: 30px;
+        padding-right: 80px;
+        text-align: left;
+    }
+    /* vegan 3 */
+    .textBoxF3{
+        position: absolute;
+        padding: 20px;
+        float: right;
+        bottom: 16%;
+        left: 52%;  
+        width: 400px;
+        height: 150px;
+    }
+    .titleF3 {
+        font-size: 20px;
+        color: rgb(161, 17, 174);
+        position: absolute;
+        top: 58%;
+        left: 53%;
+        padding: 30px;
+        padding-right: 80px;
+        text-align: left;
+    }
+    .textF3 {
+        font-size: 13px;
+        color: rgb(20, 116, 213);
+        position: absolute;
+        top: 63%;
+        left: 53%;
+        padding: 30px;
+        padding-right: 80px;
+        text-align: left;
+    }
+    .flavorScoop3 {
+        position: absolute;
+        padding: 20px;
+        float: right;
+        bottom: 11%;
+        left: 32%;  
+        width: 380px;
+        -webkit-transform: rotate(340deg);
+    }
+
+
+/* flavor end */
+
+ /* price start */
+    /* price 1 */
+    .textBoxP1{
+        position: absolute;
+        padding: 20px;
+        float: right;
+        bottom: 67%;
+        left: 52%;  
+        width: 400px;
+        height: 150px;
+    }
+    .titleP1 {
+        font-size: 20px;
+        color: rgb(161, 17, 174);
+        position: absolute;
+        top: 47px;
+        left: 53%;
+        padding: 30px;
+        padding-right: 80px;
+        text-align: right;
+    }
+    .textP1 {
+        font-size: 13px;
+        color: rgb(20, 116, 213);
+        position: absolute;
+        top: 93px;
+        left: 53%;
+        padding: 30px;
+        padding-right: 80px;
+        text-align: left;
+    }
+    .priceScoop1 {
+        position: absolute;
+        padding: 20px;
+        float: right;
+        bottom: 63%;
+        left: 31%;  
+        width: 390px;
+        -webkit-transform: rotate(340deg);
+    }
+    /* price 2 */
+    .textBoxP2{
+        position: absolute;
+        padding: 20px;
+        float: left;
+        bottom: 42%;
+        left: 38%;  
+        width: 400px;
+
+    }
+    .priceScoop2 {
+        position: absolute;
+        padding: 20px;
+        float: right;
+        bottom: 39%;
+        left: 62%;  
+        width: 380px;
+        -webkit-transform: rotate(20deg);
+    }
+    .titleP2 {
+        font-size: 20px;
+        color: rgb(161, 17, 174);
+        position: absolute;
+        top: 31%;
+        left: 39%;
+        padding: 30px;
+        padding-right: 80px;
+        text-align: left;
+    }
+    .textP2 {
+        font-size: 13px;
+        color: rgb(20, 116, 213);
+        position: absolute;
+        top: 36%;
+        left: 39%;
+        padding: 30px;
+        padding-right: 80px;
+        text-align: left;
+    }
+    /* price 3 */
+    .textBoxP3{
+        position: absolute;
+        padding: 20px;
+        float: right;
+        bottom: 16%;
+        left: 52%;  
+        width: 400px;
+        height: 150px;
+    }
+    .titleP3 {
+        font-size: 20px;
+        color: rgb(161, 17, 174);
+        position: absolute;
+        top: 58%;
+        left: 53%;
+        padding: 30px;
+        padding-right: 80px;
+        text-align: left;
+    }
+    .textP3 {
+        font-size: 13px;
+        color: rgb(20, 116, 213);
+        position: absolute;
+        top: 63%;
+        left: 53%;
+        padding: 30px;
+        padding-right: 80px;
+        text-align: left;
+    }
+    .priceScoop3 {
+        position: absolute;
+        padding: 20px;
+        float: right;
+        bottom: 11%;
+        left: 32%;  
+        width: 380px;
+        -webkit-transform: rotate(340deg);
+    }
+
+/* price end */
+
+/* footer */
+.footer {
+    font-size: 30px;
+    text-align: center;
+    color: rgb(5, 122, 176);
+}
